@@ -2,6 +2,12 @@
 Summary of the useful of Visual Studio
 
 
-To restore the whole packages.config
+To restore all packages (in packages.config) for one project:
+```
 Update-Package -reinstall -ProjectName <project>
-Update-Package -reinstall For all project in solution
+```
+
+To restore packages (in packages.config) of all projects in solution
+```
+Update-Package -reinstall 
+```
